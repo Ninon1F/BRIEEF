@@ -1,0 +1,18 @@
+.myButton {
+  background-color: black;
+  color: white;
+  width: 100px;           
+  height: 100px;
+  border: none;
+  border-radius: 50%;    
+  cursor: pointer;
+  font-size: 20px;         
+  transition: background-color 0.2s, transform 0.2s; 
+  display: flex;           
+  align-items: center;
+  justify-content: center;
+}
+
+.myButton:hover {
+  transform: scale(1.35);  
+}
